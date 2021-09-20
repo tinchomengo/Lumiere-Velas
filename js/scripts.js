@@ -343,7 +343,7 @@
 
     /* Back To Top Button */
     // create the back to top button
-    $('body').prepend('<a href="body" class="back-to-top page-scroll" style="background-color:rgb(255, 47, 144);">Back to Top</a>');
+    $('body').prepend('<a href="body" class="back-to-top page-scroll" style="background-color:#69b495;">Back to Top</a>');
     var amountScrolled = 700;
     $(window).scroll(function() {
         if ($(window).scrollTop() > amountScrolled) {
